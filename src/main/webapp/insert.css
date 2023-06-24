@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+h4{
+background-color: black;
+
+}
+body {
+	
+	background-color: rgb(228,156,46,255); 
+	
+}
+div.tex{
+max-width: 700px;
+width: 100%;
+background: white;
+}

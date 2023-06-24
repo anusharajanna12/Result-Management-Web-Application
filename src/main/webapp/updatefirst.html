@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Student Detail</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+	<div class="card" style="width: 600px; margin: auto; margin-top: 50px">
+		<h2 class="bg-warning text-light card-header" align="center">Please
+			enter Student Details To Update</h2>
+		<form class="form" action="insert" method="post">
+			<table class="table table-hover table-striped">
+				<tr>
+					<td>
+						<h3>Personal Details</h3>
+					</td>
+					<td></td>
+					
+					<tr>
+					<td>Register Number</td>
+					<td><input type="number" name="sid"></td>
+				</tr>
+
+				</tr>
+				<tr>
+					<td>Student Name</td>
+					<td><input type="text" name="sname"></td>
+				</tr>
+				
+				<tr>
+					<td>Father Name</td>
+					<td><input type="text" name="fname"></td>
+				</tr>
+				<tr>
+					<td>School Name</td>
+					<td><input type="text" name="slname"></td>
+				</tr>
+				<tr>
+					<td>phone number</td>
+					<td><input type="number" name="num"></td>
+				</tr>
+				<tr>
+					<td>Date Of Birth</td>
+					<td><input type="date" name="date"></td>
+					
+				</tr>
+				<tr>
+					<td>Gender</td>
+					<td>
+					male:<input type="radio" name="gender" value="male"> 
+					Female:<input type="radio" name="gender" value="female">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<h3>Obtained Marks</h3>
+					</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Kannada</td>
+					<td><input type="number" name="kannada"></td>
+				</tr>
+				<tr>
+					<td>English</td>
+					<td><input type="number" name="english"></td>
+				</tr>
+				<tr>
+					<td>Hindi</td>
+					<td><input type="number" name="hindi"></td>
+				</tr>
+				<tr>
+					<td>Mathematics</td>
+					<td><input type="number" name="mathematics"></td>
+				</tr>
+				<tr>
+					<td>Social Science</td>
+					<td><input type="number" name="social"></td>
+				</tr>
+				<tr>
+					<td>Science</td>
+					<td><input type="number" name="science"></td>
+				</tr>
+				<tr>
+					<td><button type="submit" class="btn btn-outline-success">Submit</button></td>
+					<td><button type="reset" class="btn btn-outline-danger">Reset</button></td>
+
+					
+				</tr>
+			</table>
+		</form>
+	</div>
+</body>
+</html>
